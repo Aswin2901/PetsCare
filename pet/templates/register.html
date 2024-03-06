@@ -1,0 +1,61 @@
+{%load static%}
+<html>
+    <head>
+        <style>
+            body{
+                background-image:url("{%static 'bg.jpg'%}");
+                background-size: cover;
+            }
+            .demo{
+                border-radius: 10px;
+                background-color: rgb(190, 45, 4);
+                margin-top: 100px;
+                margin-left: 300px;
+                height: 500px;
+                width: 400px;
+                
+                padding-top: 50px;
+            }
+            .demo1{
+                 margin-left: 40px;
+                 margin-top: 10px;
+                color: aliceblue;
+            }
+            
+            .demo2{
+                border-radius: 5px;
+                background-color: aliceblue;
+                height: 40px;
+                width: 300px;
+                color: rgba(0, 0, 0, 0.522);
+                margin-left: 30PX;
+                margin-top: 50px;
+
+            }
+            .demo3{
+                border-radius: 1px;
+                background-color: rgba(28, 121, 8, 0.322);
+                border-color: rgba(28, 121, 8, 0.322);
+                color: black;
+                margin-left: 250px;
+                height: 30px;
+                width: 100px;
+                margin-top:20px ;
+                padding-left: 20px;
+                
+            }
+        </style>
+    </head>
+    <body>
+       
+      
+        <form class="demo">
+            <h1 class="demo1">Registration Form</h1>
+            <input type="text" value="First Name" class="demo2">
+            <input type="text" value="Last Name" class="demo2">
+            <input type="text" value="email id" class="demo2">
+            <input type="text" value="password" class="demo2">
+            <input type="text" value="Register" class="demo3">
+        </form>
+    </body>
+</html>
